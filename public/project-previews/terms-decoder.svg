@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <rect width="800" height="600" fill="#0f172a"/>
+  <rect x="70" y="80" width="660" height="440" rx="22" fill="#111827" stroke="#334155"/>
+  <text x="100" y="140" fill="#e2e8f0" font-family="Arial" font-size="34">Terms &amp; Conditions Decoder</text>
+  <rect x="150" y="190" width="300" height="320" rx="14" fill="#1e293b" stroke="#64748b"/>
+  <rect x="190" y="240" width="220" height="16" rx="6" fill="#94a3b8"/>
+  <rect x="190" y="280" width="200" height="14" rx="6" fill="#64748b"/>
+  <rect x="190" y="316" width="210" height="14" rx="6" fill="#64748b"/>
+  <rect x="190" y="352" width="185" height="14" rx="6" fill="#64748b"/>
+  <circle cx="555" cy="320" r="64" fill="#3b82f6"/>
+  <circle cx="555" cy="320" r="38" fill="#dbeafe"/>
+  <line x1="600" y1="365" x2="655" y2="420" stroke="#3b82f6" stroke-width="14" stroke-linecap="round"/>
+</svg>

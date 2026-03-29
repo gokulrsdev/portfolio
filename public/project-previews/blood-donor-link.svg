@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <rect width="800" height="600" fill="#1f2937"/>
+  <rect x="70" y="80" width="660" height="440" rx="22" fill="#111827" stroke="#374151"/>
+  <text x="100" y="140" fill="#f3f4f6" font-family="Arial" font-size="34">Blood Donor Life Link</text>
+  <path d="M260 220c0-52 42-94 94-94s94 42 94 94c0 102-94 174-94 174s-94-72-94-174z" fill="#dc2626"/>
+  <path d="M390 220h-22v-22h-30v22h-22v30h22v22h30v-22h22z" fill="#fee2e2"/>
+  <line x1="510" y1="250" x2="680" y2="250" stroke="#ef4444" stroke-width="6"/>
+  <line x1="510" y1="305" x2="640" y2="305" stroke="#ef4444" stroke-width="6"/>
+</svg>

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-label="Focus clock icon">
+  <circle cx="128" cy="140" r="94" fill="#1d4ed8"/>
+  <circle cx="128" cy="140" r="84" fill="#f8fafc"/>
+  <path fill="#f87171" d="M128 56a84 84 0 0 1 84 84h-84z"/>
+  <path fill="#5eead4" d="M128 140l72 42a84 84 0 0 1-140 14z"/>
+  <path d="M128 140l-34-21M128 140l40-26" stroke="#1e1b4b" stroke-width="8" stroke-linecap="round"/>
+  <circle cx="128" cy="140" r="7" fill="#ef4444"/>
+  <rect x="168" y="40" width="50" height="36" rx="8" fill="#bfdbfe"/>
+  <rect x="50" y="188" width="40" height="40" rx="20" fill="#86efac"/>
+</svg>

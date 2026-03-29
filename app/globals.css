@@ -1,0 +1,147 @@
+@import 'next-cloudinary/dist/cld-video-player.css';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    border-color: theme(colors.border);
+  }
+
+  *::selection {
+    background-color: theme(colors.muted.foreground);
+    color: theme(colors.background);
+  }
+
+  body {
+    background-color: theme(colors.background);
+    color: theme(colors.foreground);
+    font-size: clamp(16px, 0.3vw + 15px, 19px);
+    line-height: 1.6;
+  }
+}
+
+@layer utilities {
+  .heading-outline-accent {
+    text-shadow:
+      1px 0 0 rgba(120, 140, 170, 0.35),
+      -1px 0 0 rgba(120, 140, 170, 0.2),
+      0 1px 0 rgba(120, 140, 170, 0.18);
+  }
+
+  .architectural-bg {
+    opacity: 0.42;
+    background-image:
+      radial-gradient(
+        120% 80% at 70% 8%,
+        rgba(255, 255, 255, 0.98) 0%,
+        rgba(233, 235, 240, 0.78) 44%,
+        rgba(206, 211, 220, 0.42) 70%,
+        rgba(255, 255, 255, 0) 100%
+      ),
+      repeating-conic-gradient(
+        from 12deg at 74% 16%,
+        rgba(160, 168, 182, 0.2) 0deg 8deg,
+        rgba(245, 246, 249, 0) 8deg 20deg
+      ),
+      linear-gradient(
+        155deg,
+        rgba(224, 227, 233, 0.32) 0%,
+        rgba(255, 255, 255, 0.1) 36%,
+        rgba(196, 203, 215, 0.24) 72%,
+        rgba(255, 255, 255, 0) 100%
+      );
+    background-size: 150% 130%, 120% 120%, 100% 100%;
+    background-position: center, 74% 10%, center;
+    filter: contrast(108%);
+    mix-blend-mode: multiply;
+  }
+
+  .architectural-red-accent {
+    opacity: 0.55;
+    background-image:
+      linear-gradient(
+        122deg,
+        rgba(225, 29, 72, 0.98) 0%,
+        rgba(225, 29, 72, 0.98) 6.5%,
+        rgba(255, 255, 255, 0) 6.5%,
+        rgba(255, 255, 255, 0) 100%
+      ),
+      linear-gradient(
+        122deg,
+        rgba(244, 63, 94, 0.96) 0%,
+        rgba(244, 63, 94, 0.96) 3.2%,
+        rgba(255, 255, 255, 0) 3.2%,
+        rgba(255, 255, 255, 0) 100%
+      ),
+      linear-gradient(
+        122deg,
+        rgba(255, 255, 255, 0.9) 0%,
+        rgba(255, 255, 255, 0.9) 1.5%,
+        rgba(255, 255, 255, 0) 1.5%,
+        rgba(255, 255, 255, 0) 100%
+      ),
+      linear-gradient(
+        122deg,
+        rgba(239, 68, 68, 0.95) 0%,
+        rgba(239, 68, 68, 0.95) 1.9%,
+        rgba(255, 255, 255, 0) 1.9%,
+        rgba(255, 255, 255, 0) 100%
+      ),
+      linear-gradient(
+        to right,
+        rgba(255, 255, 255, 0.5) 0%,
+        rgba(255, 255, 255, 0.08) 44%,
+        rgba(255, 255, 255, 0) 100%
+      );
+    background-size: 52% 100%, 58% 100%, 62% 100%, 66% 100%, 100% 100%;
+    background-position: left top, left top, left top, left top, center;
+    background-repeat: no-repeat;
+    mix-blend-mode: multiply;
+  }
+
+  .gold-frame-page {
+    background-image:
+      linear-gradient(
+        to bottom,
+        rgba(245, 246, 248, 0.88) 0%,
+        rgba(245, 246, 248, 0.8) 52%,
+        rgba(245, 246, 248, 0.92) 100%
+      ),
+      url('/PICS%20AND%20VIDEOS/gold.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    opacity: 1;
+  }
+
+  .fist-cursor {
+    cursor: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='36' height='36' viewBox='0 0 36 36'%3E%3Ctext y='28' font-size='28'%3E%F0%9F%91%8A%3C/text%3E%3C/svg%3E") 10 26, pointer;
+  }
+}
+
+@layer base {
+  /* Firefox */
+  * {
+    scrollbar-color: theme(colors.secondary.foreground)
+      theme(colors.secondary.DEFAULT);
+  }
+
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: theme(width[1.5]);
+  }
+
+  *::-webkit-scrollbar-track {
+    background-color: theme(colors.secondary.DEFAULT);
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: theme(colors.secondary.foreground);
+    border-radius: theme(borderRadius.full);
+
+    &:hover {
+      background-color: theme(colors.secondary.DEFAULT);
+    }
+  }
+}

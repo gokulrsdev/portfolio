@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 384" role="img" aria-label="Eye logo">
+  <g fill="none" stroke="#0a0a0a" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M44 212c55-66 126-98 212-98s157 32 212 98c-55 66-126 98-212 98S99 278 44 212z" stroke-width="22"/>
+    <path d="M256 152c38 0 68 30 68 68s-30 68-68 68-68-30-68-68 30-68 68-68z" stroke-width="20"/>
+    <path d="M256 172c26 0 48 22 48 48s-22 48-48 48" stroke-width="18"/>
+    <path d="M256 172c14 8 26 20 32 34-8 14-20 26-34 32" stroke-width="18"/>
+    <path d="M68 92l30 44M132 56l20 52M212 34v54M300 34l-20 52M380 56l-30 52M444 92l-40 48" stroke-width="18"/>
+  </g>
+</svg>

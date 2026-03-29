@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <rect width="800" height="600" fill="#111827"/>
+  <rect x="70" y="80" width="660" height="440" rx="22" fill="#0f172a" stroke="#374151"/>
+  <text x="100" y="140" fill="#e5e7eb" font-family="Arial" font-size="38">AI Phishing Detector</text>
+  <path d="M220 220l140-55 140 55v110c0 95-82 150-140 180-58-30-140-85-140-180z" fill="#1f2937" stroke="#ef4444" stroke-width="8"/>
+  <text x="335" y="355" fill="#ef4444" font-family="Arial" font-size="120">!</text>
+  <rect x="520" y="240" width="160" height="40" rx="8" fill="#1e293b"/>
+  <rect x="520" y="300" width="110" height="40" rx="8" fill="#1e293b"/>
+  <rect x="520" y="360" width="145" height="40" rx="8" fill="#1e293b"/>
+</svg>

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-label="Gokul logo">
+  <rect width="120" height="120" fill="#d8d8d8" />
+  <path
+    d="M86 34H56C41.64 34 30 45.64 30 60s11.64 26 26 26h30V64H66"
+    fill="none"
+    stroke="#232429"
+    stroke-width="8"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+  <path
+    d="M74 46H56c-7.73 0-14 6.27-14 14s6.27 14 14 14h18"
+    fill="none"
+    stroke="#232429"
+    stroke-width="8"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+</svg>

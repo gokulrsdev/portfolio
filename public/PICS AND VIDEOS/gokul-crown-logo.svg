@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Gokul Crown Logo">
+  <g fill="#0f1116">
+    <path d="M84 178l64-56 66 46 44-94 56 93 70-47 44 119-344 0z" />
+    <circle cx="84" cy="178" r="8" />
+    <circle cx="148" cy="122" r="8" />
+    <circle cx="214" cy="168" r="8" />
+    <circle cx="258" cy="74" r="9" />
+    <circle cx="314" cy="166" r="8" />
+    <circle cx="384" cy="120" r="8" />
+    <circle cx="428" cy="178" r="8" />
+    <path d="M168 244c78 0 137-11 199-33 16 14 28 31 33 51-79 22-147 32-235 32-23 0-44-1-64-5 11-18 35-34 67-45z" />
+    <text x="116" y="486" font-size="318" font-weight="900" font-family="Arial Black, Arial, sans-serif">G</text>
+  </g>
+</svg>
