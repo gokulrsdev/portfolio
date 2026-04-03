@@ -24,8 +24,10 @@ import {
 } from 'lucide-react';
 import './globals.css';
 
-/** @type {import('next').Metadata} */
-export const metadata = rootMetadata;
+export const metadata = {
+  title: "Gokul R S | Portfolio",
+  description: "Computer Science Student and Robotics enthusiast at ASIET.",
+};
 
 const doodles = [
   { Icon: Bot, className: 'left-[6%] top-[11%] rotate-[-10deg]', size: 36 },
